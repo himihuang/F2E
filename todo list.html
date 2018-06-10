@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	 <!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	</head>
+<body>
+
+	<!-- navbar -->
+	<div class="custom-navbar">
+		<div class="container">
+		  <div class="row">
+		    <div class="col-12 col-sm-8 offset-sm-2">
+		    	<ul class="list-inline text-center menu d-flex justify-content-between">
+		    		<li class="list-inline-item menu-item">
+		    			<a href="#">My Task</a>
+		    		</li>
+
+		    		<li class="list-inline-item menu-item">
+		    			<a href="#">In progress</a>
+		    		</li>
+
+		    		<li class="list-inline-item menu-item">
+		    			<a href="#">Conpleted</a>
+		    		</li>
+		    	</ul>
+		    </div>
+		  </div>
+		</div>
+	</div>
+
+	<!-- main -->
+	<div class="container">
+		<div class="row">
+			<div class="col-8 offset-2 col-sm-8 col-offset-8">
+				<form action="">
+					<div class="form-group mt-16 mb-16">
+						<label for="AddTask">
+							<input type="text" name="AddTask" id="AddTask" class="form-control p-16" placeholder="+ Add Task">
+						</label>
+					</div>
+
+					<div class="form-group bg-color-light-grey task-collepse">
+						<div class="d-flex justify-content-between bg-color-primary pr-32 pl-32 pt-24 pb-24">
+							<span class="left-side">
+								<input type="checkbox" name="Task1" id="Task1">
+								<span>Meeting wz Neil</span>
+							</span>
+
+							<span class="icon-group right-side">
+								<i class="far fa-star"></i>
+								<i class="fas fa-pencil-alt pen"></i>
+							</span>
+						</div>
+
+						<form>
+							<div class="form-collepse">
+								<div class="pr-72 pl-72 pt-24 pb-24">
+									<div class="form-group">
+									    <label for="">
+									    	<i class="far fa-calendar-alt"></i>
+											<span>Deadline</span>
+									    </label>
+
+									    <div class="form-row">
+									    	<div class="col">
+									    	  <input type="date" class="form-control">
+									    	</div>
+									    	<div class="col">
+									    	  <input type="time" class="form-control" value="13:30">
+									    	</div>
+							   			 </div>
+							  		</div>
+
+								    <div class="form-group">
+								    	<div class="">
+								    		<i class="far fa-file"></i>
+								    		<span>File</span>
+								    	</div>
+
+								    	<label for="upload_input" class="upload_cover">
+									    	<input type="file" class="form-control-file" id="upload_input">
+									    	<span class="upload_icon">＋</span>
+								    	</label>
+								    </div>
+							
+								    <div class="form-group">
+									    <label for="Textarea1">
+									    	<i class="far fa-comment-dots"></i>
+											<span>Comment</span>
+									    </label>
+
+								        <textarea class="form-control" id="Textarea1" rows="3" placeholder="Meet her at coffee shop"></textarea>
+								    </div>
+								</div>
+						  
+
+							    <div class="form-row">
+									<div class="col text-center bg-color-white">
+										<a href="" class="btn color-danger">
+											<i class="fas fa-times"></i>
+											<span>Cancel</span>
+										</a>
+									</div>
+									
+									<div class="col text-center bg-color-blue">
+										<a href="" class="btn color-white">
+											<i class="fas fa-plus"></i>
+											<span>Save</span>
+										</a>
+									</div>
+								</div>
+							</div>
+							
+						</form>
+						
+					</div>
+
+					<div class="form-group bg-color-light-grey task-collepse">
+						<div class="d-flex justify-content-between bg-color-primary pr-32 pl-32 pt-24 pb-24">
+							<span class="left-side">
+								<input type="checkbox" name="Task1" id="Task1">
+								<span>Meeting wz Neil</span>
+							</span>
+
+							<span class="icon-group right-side">
+								<i class="far fa-star"></i>
+								<i class="fas fa-pencil-alt pen"></i>
+							</span>
+						</div>
+
+						<form>
+							<div class="form-collepse">
+								<div class="pr-72 pl-72 pt-24 pb-24">
+									<div class="form-group">
+									    <label for="">
+									    	<i class="far fa-calendar-alt"></i>
+											<span>Deadline</span>
+									    </label>
+
+									    <div class="form-row">
+									    	<div class="col">
+									    	  <input type="date" class="form-control">
+									    	</div>
+									    	<div class="col">
+									    	  <input type="time" class="form-control" value="13:30">
+									    	</div>
+							   			 </div>
+							  		</div>
+
+								    <div class="form-group">
+								    	<div class="">
+								    		<i class="far fa-file"></i>
+								    		<span>File</span>
+								    	</div>
+
+								    	<label for="upload_input" class="upload_cover">
+									    	<input type="file" class="form-control-file" id="upload_input">
+									    	<span class="upload_icon">＋</span>
+								    	</label>
+								    </div>
+							
+								    <div class="form-group">
+									    <label for="Textarea1">
+									    	<i class="far fa-comment-dots"></i>
+											<span>Comment</span>
+									    </label>
+
+								        <textarea class="form-control" id="Textarea1" rows="3" placeholder="Meet her at coffee shop"></textarea>
+								    </div>
+								</div>
+						  
+
+							    <div class="form-row">
+									<div class="col text-center bg-color-white">
+										<a href="" class="btn color-danger">
+											<i class="fas fa-times"></i>
+											<span>Cancel</span>
+										</a>
+									</div>
+									
+									<div class="col text-center bg-color-blue">
+										<a href="" class="btn color-white">
+											<i class="fas fa-plus"></i>
+											<span>Save</span>
+										</a>
+									</div>
+								</div>
+							</div>
+							
+						</form>
+						
+					</div>
+
+					<div class="form-group bg-color-light-grey task-collepse">
+						<div class="d-flex justify-content-between bg-color-primary pr-32 pl-32 pt-24 pb-24">
+							<span class="left-side">
+								<input type="checkbox" name="Task1" id="Task1">
+								<span>Meeting wz Neil</span>
+							</span>
+
+							<span class="icon-group right-side">
+								<i class="far fa-star"></i>
+								<i class="fas fa-pencil-alt pen"></i>
+							</span>
+						</div>
+
+						<form>
+							<div class="form-collepse">
+								<div class="pr-72 pl-72 pt-24 pb-24">
+									<div class="form-group">
+									    <label for="">
+									    	<i class="far fa-calendar-alt"></i>
+											<span>Deadline</span>
+									    </label>
+
+									    <div class="form-row">
+									    	<div class="col">
+									    	  <input type="date" class="form-control">
+									    	</div>
+									    	<div class="col">
+									    	  <input type="time" class="form-control" value="13:30">
+									    	</div>
+							   			 </div>
+							  		</div>
+
+								    <div class="form-group">
+								    	<div class="">
+								    		<i class="far fa-file"></i>
+								    		<span>File</span>
+								    	</div>
+
+								    	<label for="upload_input" class="upload_cover">
+									    	<input type="file" class="form-control-file" id="upload_input">
+									    	<span class="upload_icon">＋</span>
+								    	</label>
+								    </div>
+							
+								    <div class="form-group">
+									    <label for="Textarea1">
+									    	<i class="far fa-comment-dots"></i>
+											<span>Comment</span>
+									    </label>
+
+								        <textarea class="form-control" id="Textarea1" rows="3" placeholder="Meet her at coffee shop"></textarea>
+								    </div>
+								</div>
+						  
+
+							    <div class="form-row">
+									<div class="col text-center bg-color-white">
+										<a href="" class="btn color-danger">
+											<i class="fas fa-times"></i>
+											<span>Cancel</span>
+										</a>
+									</div>
+									
+									<div class="col text-center bg-color-blue">
+										<a href="" class="btn color-white">
+											<i class="fas fa-plus"></i>
+											<span>Save</span>
+										</a>
+									</div>
+								</div>
+							</div>
+							
+						</form>
+						
+					</div>
+
+
+				</form>
+
+			</div>
+		</div>
+	</div>
+
+
+	
+	<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+</body>
+</html>
