@@ -1,0 +1,68 @@
+body {
+  background-color: #F2F2F2; }
+
+nav.navbar-custom-bg {
+  background-color: #000; }
+  nav.navbar-custom-bg a {
+    color: #fff; }
+  nav.navbar-custom-bg a.navbar-brand {
+    font-size: 24px;
+    margin-right: 80px; }
+  nav.navbar-custom-bg li.nav-item {
+    margin-right: 40px; }
+    nav.navbar-custom-bg li.nav-item:hover {
+      border-bottom: 1px solid #fff; }
+
+/*===============
+overview
+================*/
+.overview-section .col-sm-4 > div {
+  background-color: #fff;
+  padding: 16px 80px;
+  width: 100%;
+  margin-top: 16px;
+  margin-bottom: 16px; }
+
+/*===============
+chart
+================*/
+.chart {
+  background-color: #fff;
+  padding: 8px; }
+
+/*===============
+chart
+================*/
+.transaction, .order {
+  background-color: #fff;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding: 16px; }
+
+.order .row {
+  padding-top: 8px;
+  padding-bottom: 8px; }
+
+.item {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #EBEBEB; }
+  .item .social-media i {
+    font-size: 36px; }
+  .item .web {
+    padding-left: 20px;
+    color: #9B9B9B; }
+  .item .h3 {
+    padding-left: 62px; }
+  .item .slide {
+    padding-right: 20px;
+    color: #7ED321; }
+
+.order .time {
+  color: #9B9B9B; }
+  .order .time i {
+    padding-right: 8px; }
+.order .name {
+  color: #9B9B9B; }
+  .order .name i {
+    padding-right: 16px; }
